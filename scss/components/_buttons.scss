@@ -1,0 +1,17 @@
+.btn-white {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+}
+
+.download-btn {
+  @extend .btn-white;
+  i {
+    padding-right: 1rem;
+  }
+  &:hover {
+    border-color: lighten($primary-color, 40%);
+  }
+}
