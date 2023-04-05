@@ -1,13 +1,13 @@
-// Loader
-document.onreadystatechange = function () {
-  if (document.readyState !== "complete") {
-    document.querySelector("body").style.visibility = "hidden";
-    document.querySelector("#loader").style.visibility = "visible";
-  } else {
-    document.querySelector("#loader").style.display = "none";
-    document.querySelector("body").style.visibility = "visible";
-  }
-};
+// // Loader
+// document.onreadystatechange = function () {
+//   if (document.readyState !== "complete") {
+//     document.querySelector("body").style.visibility = "hidden";
+//     document.querySelector("#loader").style.visibility = "visible";
+//   } else {
+//     document.querySelector("#loader").style.display = "none";
+//     document.querySelector("body").style.visibility = "visible";
+//   }
+// };
 
 let body = document.querySelector("body");
 let create_canvas = document.createElement("canvas");
