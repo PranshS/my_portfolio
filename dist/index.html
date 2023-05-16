@@ -25,7 +25,7 @@
     <title>Pranshu Sharma | Portfolio</title>
   </head>
   <body>
-    <!-- <div id="loader" class="loader">
+    <div id="loader" class="loader">
       <div class="loader-inner">
         <div class="loader-inner-square"></div>
         <div class="loader-inner-square"></div>
@@ -35,7 +35,7 @@
         <div class="loader-inner-square"></div>
         <div class="loader-inner-square"></div>
       </div>
-    </div> -->
+    </div>
     <div id="cursor" class="cursor"></div>
     <header id="header" class="header">
       <div class="header-left">
@@ -48,17 +48,19 @@
       </div>
       <div class="header-right">
         <div class="container">
-          <div class="download-resume">
-            <button class="download download-btn btn-white">
-              <i class="fa fa-solid fa-download fa-shake"></i>
-              Resume
-            </button>
-          </div>
-
           <div class="ham-icon">
             <span class="line line1"></span>
             <span class="line line2"></span>
             <span class="line line3"></span>
+          </div>
+
+          <div class="menu-bar">
+            <ul class="menu-item">
+              <li class="list-item active">Home</li>
+              <li class="list-item">About</li>
+              <li class="list-item">My Work</li>
+              <li class="list-item">Contact</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -66,23 +68,49 @@
 
     <section class="hero">
       <div class="hero-container">
-        <div class="social-icon">
-          <i class="fa-brands fa-twitter icon-hover icon-hover_expand"></i>
-          <i class="fa fa-brands fa-instagram icon-hover icon-hover_expand"></i>
-          <i class="fa-brands fa-linkedin icon-hover_expand"></i>
-          <i class="fa-brands fa-github icon-hover_expand"></i>
-        </div>
-
         <div class="intro hero-text">
           <h1 class="effect-shine">
             Hi,<br />
             I'm Pranshu<br />
             Frontend Developer
           </h1>
+          <p class="tagline">
+            If you can dream it, we can design it. Where imagination meets
+            technology.
+          </p>
+          <button class="download download-btn btn-white">
+            <i class="fa fa-solid fa-download"></i>
+            Resume
+          </button>
         </div>
+
+        <!-- <div class="blob">
+          <div class="blob-container">
+            <div class="blob-effect"></div>
+            <img src="../dist/images/my-image.png" alt="" />
+          </div>
+        </div> -->
       </div>
     </section>
 
+    <div class="footer">
+      <div class="accounts">
+        <div class="mail">
+          <i class="fa-regular fa-envelope icon-hover icon-hover_expand"></i>
+          <a href="">sharmapranshu422@gmail.com</a>
+        </div>
+        <div class="github">
+          <i class="fa-brands fa-github icon-hover icon-hover_expand"></i>
+          <a href="www.github.com/pranshS">www.github.com/pranshS</a>
+        </div>
+      </div>
+
+      <div class="social-icon">
+        <i class="fa-brands fa-twitter icon-hover icon-hover_expand"></i>
+        <i class="fa fa-brands fa-instagram icon-hover icon-hover_expand"></i>
+        <i class="fa-brands fa-linkedin icon-hover_expand"></i>
+      </div>
+    </div>
     <section class="about-page"></section>
 
     <script src="./js/main.js"></script>

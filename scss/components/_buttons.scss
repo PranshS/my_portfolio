@@ -8,6 +8,8 @@
 
 .download-btn {
   @extend .btn-white;
+  display: block;
+  margin: 1.5rem 0;
   i {
     padding-right: 1rem;
   }

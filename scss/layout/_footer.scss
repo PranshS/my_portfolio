@@ -1,20 +1,40 @@
 .footer {
-  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   bottom: 0;
   width: 90vw;
-  margin-left: 5vw;
-  z-index: 1;
-  padding: 1rem 0.5rem;
+  height: 10vh;
+  margin: 0 auto;
 
-  &-container {
+  .accounts {
     display: flex;
-    justify-content: space-between;
-
+    padding: 1rem 3rem;
+    font-size: 0.8rem;
+    color: $color-white;
     .mail {
-      width: auto;
-      span {
-        margin-right: 2rem;
+      a {
+        color: $color-white;
+        padding: 0 0.5rem;
       }
     }
+    .github {
+      padding: 0 2rem;
+
+      i {
+        color: lighten($color: $primary-color, $amount: 40%);
+      }
+      a {
+        color: lighten($color: $primary-color, $amount: 40%);
+        padding: 0 0.5rem;
+      }
+    }
+  }
+
+  .social-icon {
+    gap: 3rem;
+    display: flex;
+    font-size: 1.2rem;
   }
 }
