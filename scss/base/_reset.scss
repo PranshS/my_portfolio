@@ -76,11 +76,11 @@ main {
 body {
   line-height: 1;
   background-color: lighten($color-black, 10%);
-  color: white;
+  color: $color-white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 100vh;
+  // height: 100vh;
   overflow: hidden;
-  font-size: calc(15px + 0.390625vw);
+  font-size: $font-size;
 }
 
 ol,

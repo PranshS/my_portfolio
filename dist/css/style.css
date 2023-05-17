@@ -8307,11 +8307,10 @@ main {
 body {
   line-height: 1;
   background-color: #1a1a1a;
-  color: white;
+  color: #efefef;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 100vh;
   overflow: hidden;
-  font-size: calc(15px + 0.390625vw);
+  font-size: clamp(0.7rem, 3.5vw, 3rem);
 }
 
 ol,

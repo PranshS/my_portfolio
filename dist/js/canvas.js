@@ -28,6 +28,16 @@ window.addEventListener("load", () => {
   }
 });
 
+window.addEventListener("touchstart", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  for (i = 0; i < 10; i++) {
+    dots.push(new Connect_dots());
+    console.log(dots[i]);
+  }
+});
+
 window.addEventListener("mousemove", function (e) {
   mouse.x = e.x;
   mouse.y = e.y;
